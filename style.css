@@ -307,6 +307,11 @@ a:hover {
     display: inline;
 }
 
+.navbar-brand:focus{
+    border: #000000 solid 2px;
+    border-radius: 1rem;
+}
+
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
@@ -332,9 +337,9 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    border: #000000 solid 2px;
+    border-radius: 1rem;
 }
 
 .navbar-toggle {
@@ -447,6 +452,11 @@ nav .caret {
 
 .btn {
     margin: 0 5px 5px 0;
+}
+
+.btn:focus {
+    border: black solid 2px;
+    border-radius: 1rem;
 }
 
 .btn.pull-right {
@@ -704,6 +714,13 @@ p {
     margin: auto auto auto auto;
 }
 
+.social:focus {
+    border: black solid 2px;
+    border-radius: 1rem;
+    padding: 1.5rem 1rem 0.5rem 1rem;
+}
+
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -743,6 +760,12 @@ h4 {
     margin-bottom: 24px;
 }
 
+.portfolio-div:focus {
+    border: black solid 2px;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
@@ -760,6 +783,12 @@ h4 {
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
+}
+
+.bold-link:focus {
+    border: black solid 2px;
+    border-radius: 1rem;
+    padding: 0.5rem;
 }
 
 .bgc-white {
